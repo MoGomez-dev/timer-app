@@ -1,0 +1,122 @@
+html {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    height: 100%;
+    background: linear-gradient(135deg, #ee74c5, #73d5f3, #d9f794);
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+
+h1 {
+    margin-top: 10%;
+    font-size: 7rem;
+}
+
+.button-wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20%;
+}
+
+.btn {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(17, 17, 17, 0.699);
+    color: aliceblue;
+    font-size: 1.7rem;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.507);
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.btn:active {
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+.dancing {
+    font-family: 'Dancing Script', cursive;
+}
+
+.crimson {
+    font-family: 'Crimson Text', serif;
+}
+
+.barriecito {
+    font-family: 'Barriecito', cursive;
+}
+
+.old {
+    font-family: 'Old Standard TT', serif;
+}
+
+.pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.tilt {
+    font-family: 'Tilt Prism', cursive;
+}
+.caveat {
+    font-family: 'Caveat', cursive;
+}
+.zeyada {
+    font-family: 'Zeyada', cursive;
+}
+.dot {
+    font-family: 'DotGothic16', sans-serif;
+}
+.hachi {
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+.finish-display {
+    width: 40%;
+    height: 40%;
+    position: fixed;
+    left: 30%;
+    top: 30%;
+    z-index: 10;
+    background-color: aliceblue;
+    color: rgba(17, 17, 17, 0.699);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.finish-display h1 {
+    margin-top: 15%;
+    font-size: 3rem;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.finish-display button {
+    margin-bottom: 15%;
+    font-size: 2rem;
+}
